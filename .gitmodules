@@ -1,0 +1,6 @@
+[submodule "3rdparty/LXD.NET"]
+	path = 3rdparty/LXD.NET
+	url = https://github.com/fredldotme/LXD.NET.git
+[submodule "3rdparty/Docker.DotNet"]
+	path = 3rdparty/Docker.DotNet
+	url = https://github.com/fredldotme/Docker.DotNet.git
