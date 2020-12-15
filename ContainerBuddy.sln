@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainerBuddy.iOS", "Conta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainerBuddy", "ContainerBuddy\ContainerBuddy.csproj", "{27C4ACBB-C003-4E3A-B369-F5C226EA3EAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docker.DotNet", "3rdparty\Docker.DotNet\src\Docker.DotNet\Docker.DotNet.csproj", "{C9B7F9A2-48C2-49FB-BB07-38469C62568F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docker.DotNet.BasicAuth", "3rdparty\Docker.DotNet\src\Docker.DotNet.BasicAuth\Docker.DotNet.BasicAuth.csproj", "{B84855EA-9472-4030-A4DF-DD1350C434CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docker.DotNet.X509", "3rdparty\Docker.DotNet\src\Docker.DotNet.X509\Docker.DotNet.X509.csproj", "{BC0FB0EB-90FE-450D-9530-0AC6E8F3F29D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -41,6 +47,42 @@ Global
 		{27C4ACBB-C003-4E3A-B369-F5C226EA3EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27C4ACBB-C003-4E3A-B369-F5C226EA3EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27C4ACBB-C003-4E3A-B369-F5C226EA3EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B7F9A2-48C2-49FB-BB07-38469C62568F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{C9B7F9A2-48C2-49FB-BB07-38469C62568F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{C9B7F9A2-48C2-49FB-BB07-38469C62568F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{C9B7F9A2-48C2-49FB-BB07-38469C62568F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{C9B7F9A2-48C2-49FB-BB07-38469C62568F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{C9B7F9A2-48C2-49FB-BB07-38469C62568F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{C9B7F9A2-48C2-49FB-BB07-38469C62568F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{C9B7F9A2-48C2-49FB-BB07-38469C62568F}.Release|iPhone.Build.0 = Release|Any CPU
+		{C9B7F9A2-48C2-49FB-BB07-38469C62568F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B7F9A2-48C2-49FB-BB07-38469C62568F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B7F9A2-48C2-49FB-BB07-38469C62568F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B7F9A2-48C2-49FB-BB07-38469C62568F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B84855EA-9472-4030-A4DF-DD1350C434CB}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{B84855EA-9472-4030-A4DF-DD1350C434CB}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{B84855EA-9472-4030-A4DF-DD1350C434CB}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{B84855EA-9472-4030-A4DF-DD1350C434CB}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{B84855EA-9472-4030-A4DF-DD1350C434CB}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{B84855EA-9472-4030-A4DF-DD1350C434CB}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{B84855EA-9472-4030-A4DF-DD1350C434CB}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{B84855EA-9472-4030-A4DF-DD1350C434CB}.Release|iPhone.Build.0 = Release|Any CPU
+		{B84855EA-9472-4030-A4DF-DD1350C434CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B84855EA-9472-4030-A4DF-DD1350C434CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B84855EA-9472-4030-A4DF-DD1350C434CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B84855EA-9472-4030-A4DF-DD1350C434CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0FB0EB-90FE-450D-9530-0AC6E8F3F29D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{BC0FB0EB-90FE-450D-9530-0AC6E8F3F29D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{BC0FB0EB-90FE-450D-9530-0AC6E8F3F29D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{BC0FB0EB-90FE-450D-9530-0AC6E8F3F29D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{BC0FB0EB-90FE-450D-9530-0AC6E8F3F29D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{BC0FB0EB-90FE-450D-9530-0AC6E8F3F29D}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{BC0FB0EB-90FE-450D-9530-0AC6E8F3F29D}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{BC0FB0EB-90FE-450D-9530-0AC6E8F3F29D}.Release|iPhone.Build.0 = Release|Any CPU
+		{BC0FB0EB-90FE-450D-9530-0AC6E8F3F29D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0FB0EB-90FE-450D-9530-0AC6E8F3F29D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0FB0EB-90FE-450D-9530-0AC6E8F3F29D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0FB0EB-90FE-450D-9530-0AC6E8F3F29D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
