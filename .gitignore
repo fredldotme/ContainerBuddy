@@ -403,3 +403,6 @@ ASALocalRun/
 
 # Local History for Visual Studio
 .localhistory/
+
+# Continuous XAML designer files
+*.xaml.designer.cs
