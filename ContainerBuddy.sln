@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docker.DotNet.BasicAuth", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docker.DotNet.X509", "3rdparty\Docker.DotNet\src\Docker.DotNet.X509\Docker.DotNet.X509.csproj", "{BC0FB0EB-90FE-450D-9530-0AC6E8F3F29D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LXD", "3rdparty\LXD.NET\LXD\LXD.csproj", "{CA02C049-29CB-483B-902D-39C917D82C4D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -85,18 +83,6 @@ Global
 		{BC0FB0EB-90FE-450D-9530-0AC6E8F3F29D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC0FB0EB-90FE-450D-9530-0AC6E8F3F29D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC0FB0EB-90FE-450D-9530-0AC6E8F3F29D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CA02C049-29CB-483B-902D-39C917D82C4D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{CA02C049-29CB-483B-902D-39C917D82C4D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{CA02C049-29CB-483B-902D-39C917D82C4D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{CA02C049-29CB-483B-902D-39C917D82C4D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{CA02C049-29CB-483B-902D-39C917D82C4D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{CA02C049-29CB-483B-902D-39C917D82C4D}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{CA02C049-29CB-483B-902D-39C917D82C4D}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{CA02C049-29CB-483B-902D-39C917D82C4D}.Release|iPhone.Build.0 = Release|Any CPU
-		{CA02C049-29CB-483B-902D-39C917D82C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CA02C049-29CB-483B-902D-39C917D82C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CA02C049-29CB-483B-902D-39C917D82C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CA02C049-29CB-483B-902D-39C917D82C4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
